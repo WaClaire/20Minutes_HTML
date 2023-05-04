@@ -1,0 +1,324 @@
+@import url(https://fonts.cdnfonts.com/css/helvetica-neue-55);
+
+
+/* LOGO 20 MINUTES */
+
+.vingtMinutes{
+    height: 300px;
+    width: 300px;
+}
+
+.idf{
+    color: white;
+    background-color: #034693;
+    width: 300px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* TITLE WITH CLAIRE VALLEE */
+
+.titleHead{
+    display: flex;
+    flex-direction: row;
+}
+
+.claire{
+    width: 80%;
+    height: 80%;
+    margin-top: 53px;
+    margin-left: 50px;
+}
+
+.jusz{
+    display: flex;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-style: italic;
+    margin-left: 0;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+
+/* WRITING WITH CLAIRE VALEE */
+
+.titleWriting{
+    display: flex;
+    flex-direction: column;
+}
+
+.vingtMinAvec{
+    color: white;
+    background-color: #034693;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    padding: 0;
+}
+
+.nom{
+    color: #034693;
+    font-size: 44px;
+    margin: 40px 0px 10px;
+    letter-spacing: -2px;
+    font-weight: 900;
+}
+
+.vegan{
+    margin-top: 0px;
+    font-size: 39px;
+}
+
+
+/* ALL THE TOP */
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/* THE LINE AND BELOW */
+
+.line{
+    height: 2px;
+    background: black;
+}
+
+.underline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lineUp{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/* NOW WE ARE GOING DOWN */
+/* TO THE CENTER OF THE PAGE */
+
+
+/* SIDE OF THE CENTER */
+
+.detritu{
+    display: flex;
+    writing-mode: tb-rl;
+    transform: rotate(-90deg);
+    height: 50px;
+    width: 151px;
+    position: absolute;
+    left: -47px;
+    bottom: -715px
+}
+
+.warning{
+    display: flex;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-style: italic;
+    margin-left: 0;
+    margin-top: 120px;
+    font-size: 15px;
+}
+
+.bacTri{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 50px;
+}
+
+
+/* COTE OF THE CENTER */
+
+.teaTime{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.maskSinger{
+    width: 300px;
+}
+
+.harsin{
+    display: flex;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-style: italic;
+    margin-left: 0;
+    font-size: 12px;
+}
+
+.tfi{
+    display: flex;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-style: italic;
+    margin-left: 0;
+    font-size: 12px;
+}
+
+.lama{
+    display: flex;
+    flex-direction: row;
+}
+
+.tvArticle, .parisArticle, .retraiteArticle{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.parisTitle, .tvTitle, .retraiteTitle{
+    color: #034693;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    letter-spacing: -2px;
+    font-weight: 900;
+}
+
+.underlineCenter{
+    height: 2px;
+    background: black;
+    margin-bottom: 20px;
+    margin-right: 22px;
+}
+
+
+/* PICTURE_TITLE OF THE CENTER */
+
+.athenes{
+    width: 919px;
+    height: 1180px;
+}
+
+.jerome{
+    display: flex;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-style: italic;
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.picTitle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+}
+
+.athenesTitle{
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 16px;
+    font-size: 100px;
+    letter-spacing: -5px;
+}
+
+.athenesArticle{
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 36px;
+}
+
+.athenesZStack{
+    position: relative;
+}
+
+
+/* ALL THE CENTER */
+
+.centering{
+    display: flex;
+    flex-direction: row;
+}
+
+.centering:not(.warning){
+    margin-left: 8px;
+}
+
+
+/* SEPARATION LINE BETWEEN CENTER AND BOTTOM */
+
+.lineDown{
+    margin-left: 50px;
+    margin-right: 52px;
+    margin-bottom: 10px;
+}
+
+
+/* ALL THE BOTTOM */
+
+.barcode{
+    writing-mode: tb-rl;
+    transform: rotate(-90deg);
+    height: 50px;
+    width: 210px;
+    position: absolute;
+    left: -75px;
+}
+
+.taste{
+    width: 1280px;
+    margin-left: 50px;
+}
+
+.pub{
+    display: flex;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    margin-left: 0;
+    margin-top: 140px;
+    font-weight: 340;
+    font-size: 16px;
+    letter-spacing: 1px;    
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0px;
+}
+
+
+/* ALL THE PAGE */
+
+.changeColor{
+    color: #034693;
+    font-weight: 900;
+}
+
+body{
+    padding: 70px 0px 70px 0px;
+}
+
+* {
+    max-width: 1400px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+/* COMME UNE ENVIE DE REJOINDRE PAPA JOHNNY*/
